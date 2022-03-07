@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+</head>
+<body>
+    <h1>Aqui se hace el pedido</h1>
+
+    <form action="pedido.js">
+        <label for="Nombre">Danos tu nombre, Taconauta</label>
+        <input type="text" name="Nombre" id="Nombre" placeholder="Nombre">
+        <br><br>
+        <label for="mesa">Tu mesa (Esta el numero en el centro de ella)</label>
+        <input type="mesa" name="mesa" id="Mesa" placeholder="4">
+        <br><br>
+
+        <p>¿Para comer aqui o para llevar?</p>
+        <input type="radio" name="aquiollevar" id="aqui" value="Aqui">
+        <label for="aqui">Aqui</label><br>
+        <input type="radio" name="aquiollevar" id="llevar" value="llevar">
+        <label for="llevar">llevar</label><br>
+        
+        <p>¿Que tacos vas a pedir?</p>
+        <input type="checkbox" name="Mercurio" id="Mercurio" value="Mercurio">
+        <label for="Mercurio">Mercurio</label>
+        <input type="number" name="mercuriocuantos" id="mercuriocuantos"><br>
+        <input type="checkbox" name="venus" id="venus" value="venus">
+        <label for="venus">Venus</label>
+        <input type="number" name="venuscuantos" id="venuscuantos">
+
+        <p>¿Y para tomar?</p>
+        <select name="refresco" id="refresco">
+            <option value="CocaCola">CocaCola</option>
+            <option value="Fanta">Fanta</option>
+            <option value="Manzana">Manzana</option>
+            <option value="Sprite">Sprite</option>
+            <option value="Sangria">Sangria</option>
+        </select>
+        <br><br>
+        <input type="reset" value="Resetear">
+        <input type="submit" value="Enviar">
+    </form>
+    
+</body>
+</html>
