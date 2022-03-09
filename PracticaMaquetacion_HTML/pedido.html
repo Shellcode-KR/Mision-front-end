@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+</head>
+<body>
+    <h1>Aqui se hace el pedido</h1>
+    <h2>Selecciona el sabor del Pastel y sus decoraciones</h2>
+    <form action="pedido.js">
+        <label for="Nombre">Danos tu nombre, cosmocliente</label>
+        <input type="text" name="Nombre" id="Nombre" placeholder="Nombre"><br>
+        <label for="Nombre">Danos tu Correo</label>
+        <input type="text" name="correo" id="correo" placeholder="user@mail.com"><br>
+        <label for="Nombre">Danos tu telefono, cosmocliente</label>
+        <input type="tel" name="telefono" id="telefono"><br>
+
+        
+        <br><br>
+        <label for="peso">de Cuantos kilos sera el pastel(1 kg alcanza para 8 personas)</label>
+        <input type="peso" name="peso" id="Peso" placeholder="4">
+        <br><br>
+
+        <p>¿De que sabor lo pediras?</p>
+        <input type="checkbox" name="Sabor1" id="Sabor1" value="Sabor1">
+        <label for="Sabor1">Primer sabor</label>
+        <select name="sabor1" id="sabor1">
+            <option value="Vainilla con Chocolate">Vainilla con chocolate</option>
+            <option value="Carlos v">Carlos V</option>
+            <option value="Beso de Freza">Beso de Freza</option>
+            <option value="Doble queso y Zarzamora">Doble queso y Zarzamora</option>
+            
+        </select>
+        
+        <input type="checkbox" name="Sabor2" id="Sabor2" value="Sabor2">
+        <label for="Sabor2">Segundo Sabor sabor</label>
+        <select name="refresco" id="refresco">
+            <option value="Vainilla con Chocolate">Vainilla con chocolate</option>
+            <option value="Carlos v">Carlos V</option>
+            <option value="Beso de Freza">Beso de freza</option>
+            <option value="Doble queso y Zarzamora">Doble queso y Zarzamora</option>
+            
+        </select>
+        <br>
+        <p>Elige las decoraciones</p>
+        <input type="checkbox" name="velitas" id="velitas" value="velitas">
+        <label for="velitas">Velitas</label>
+        <input type="number" name="velitascuantas" id="velitascuantas"><br>
+        
+        <input type="checkbox" name="velitan1" id="velitan1" value="velitan1">
+        <label for="velitan">Velita con numero 1</label>
+        <input type="number" name="velitan1" id="velitan1">
+
+        <input type="checkbox" name="velitan2" id="velitan2" value="velitan2">
+        <label for="velitan">Velita con numero 2</label>
+        <input type="number" name="velitan2" id="velitan2">
+        <br>
+        <input type="checkbox" name="nombrechantilli" id="nombrechantilli" value="nombrechantilli">
+        <label for="nombrechantilli">Nombre con chantilli</label>
+        <input type="text" name="Nombrechantilli" id="Nombrechantilli" placeholder="Escribe el nombre que llevara el pastel">
+        
+        <input type="checkbox" name="nombreChocolate" id="nombreChocolate" value="nombreChocolate">
+        <label for="nombrechantilli">Nombre con Chocolate</label>
+        <input type="text" name="Nombrechocolate" id="Nombrechocolate" placeholder="Escribe el nombre que llevara el pastel">
+        <br>
+        <input type="checkbox" name="figura" id="figura" value="figura">
+        <label for="figura">Figura de chocolate</label>
+        <select name="figura" id="fugura">
+            <option value="Conejo">Conejo</option>
+            <option value="Corazon">Corazon</option>
+            <option value="Estrella">Estrella</option>
+            <option value="Rosa">Rosa</option>
+        </select>
+        <br><br>
+        <input type="reset" value="Resetear">
+        <input type="submit" value="Enviar">
+    </form>
+    <br><br>
+<hr>
+    <footer>
+        <address>
+          Pasteleria Cosmos<br>
+            951526xxxx<br>
+          pasteleriaCosmos@mypc.com      
+        </address>
+        <p>Horario de atencion L-V 8-20 hrs</p>
+      </footer>
+</body>
+</html>
